@@ -9,21 +9,15 @@
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js"></script>
-<script type="text/javascript" src="main.js"></script>
+<script type="text/javascript" src="main/main.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<title>Insert title here</title>
-
-
-
+<title>Diary web login</title>
 </head>
-<body onload="getTags();">
-  <div id="title"></div>
-
-  <button type="button" onclick="myFunction()">Try it</button>
-
-
+<body>
   <div>
-    <label for="tags">Tags: </label> <input id="tags" />
+    <label>E-mail: </label> <input id="email" /> <label>Parool: </label> <input id="password" />
+    <button type="button" onclick="getResponse()">Login</button>
   </div>
+  <div id="response"></div>
 </body>
 </html>
