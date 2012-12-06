@@ -37,8 +37,15 @@ public class Login extends HttpServlet {
 
       HttpSession session = request.getSession(true);
       session.setAttribute("currentSessionUser", user);
+      response.getWriter().write(user.getName() + " " + user.getCode());
+      // String destination = "/main.jsp";
 
-      response.sendRedirect("diary/main.jsp");
+      // String encodeRedirectURL = response.encodeRedirectURL("http://www.google.com");
+      // System.out.println("\n\n" + encodeRedirectURL);
+      // response.sendRedirect(encodeRedirectURL);
+      // RequestDispatcher requestDispatcher;
+      // requestDispatcher = request.getRequestDispatcher("/main.jsp");
+      // requestDispatcher.forward(request, response);
 
     } catch (Throwable theException) {
       System.out.println(theException);

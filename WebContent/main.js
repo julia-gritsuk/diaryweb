@@ -24,18 +24,21 @@ function getCoursesAutocomplete() {
 }
 
 function getResponse() {
-	var email = document.getElementById("email").innerHTML;
-	var password = document.getElementById("email").innerHTML;
+	var email = document.getElementById("email").value;
+	var password = document.getElementById("password").value;
 
 	$.ajax({
 		async : false,
 		data : {
-			"email" : email,
-			"password" : password
+			'email' : email,
+			'password' : password
 		},
 		dataType : 'text',
-		url : "InsideGame"
+		url : "Login"
 	}).success(function(response) {
-		ocument.getElementById("response").innerHTML = response;
+		alert("Redirecting!");
+		self.location = "main/main.jsp";
+		// Adds redirecting html into div
+//		document.getElementById("response").innerHTML = response;
 	});
 }
