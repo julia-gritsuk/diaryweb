@@ -1,0 +1,67 @@
+body {
+	border: 0px;
+	margin: 0px auto;
+	padding: 0px;
+	background-color: #ffffff;
+	/* 	font-family: Verdana; */
+	text-align: center;
+}
+
+#menu {
+	height: 120px;
+	width: 100%;
+	background-color: #EDEDED;
+}
+
+.menuButton {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	top: 10px;
+}
+
+#userBtn {
+	left: 250px;
+	background: url(design/user_btn.png) no-repeat;
+}
+
+#userBtn:hover {
+	background: url(design/user_btn_act.png) no-repeat;
+}
+
+#formBtn {
+	left: 365px;
+	background: url(design/form_btn.png) no-repeat;
+}
+
+#formBtn:hover {
+	background: url(design/form_btn_act.png) no-repeat;
+}
+
+#graphBtn {
+	left: 480px;
+	background: url(design/graph_btn.png) no-repeat;
+}
+
+#graphBtn:hover {
+	background: url(design/graph_btn_act.png) no-repeat;
+}
+
+#oisBtn {
+	left: 595px;
+	background: url(design/ois_btn.png) no-repeat;
+}
+
+#oisBtn:hover {
+	background: url(design/ois_btn_act.png) no-repeat;
+}
+
+#utBtn {
+	left: 710px;
+	background: url(design/ut_btn.png) no-repeat;
+}
+
+#utBtn:hover {
+	background: url(design/ut_btn_act.png) no-repeat;
+}

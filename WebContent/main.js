@@ -1,5 +1,5 @@
 function myFunction() {
-	document.getElementById("title").innerHTML = "Ã¼ÃµÃ¶ÃµÃ¶ UTF8 wtf";
+	document.getElementById("title").innerHTML = "õäöü UTF8 wtf";
 }
 
 function getAutocompletes() {
@@ -16,7 +16,7 @@ function getCodesAutocomplete() {
 }
 
 function getCoursesAutocomplete() {
-	var availableCourses = [ "Andmeturve", "InfosÃ¼steemid", "Tarkvaraprojekt",
+	var availableCourses = [ "Andmeturve", "Infosüsteemid", "Tarkvaraprojekt",
 			"Tarkvaratehnika", "Tehisintellekt", "Keeletehnoloogia" ];
 	$("#courses").autocomplete({
 		source : availableCourses
