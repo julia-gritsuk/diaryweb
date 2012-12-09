@@ -1,16 +1,22 @@
-body {
-	border: 0px;
-	margin: 0px auto;
-	padding: 0px;
-	background-color: #ffffff;
-	/* 	font-family: Verdana; */
-	text-align: center;
-}
-
 #menu {
 	height: 120px;
 	width: 100%;
 	background-color: #EDEDED;
+}
+
+#menuFooter {
+	height: 10px;
+	width: 100%;
+	background-color: #4D4D4D;
+}
+
+#date{
+	position: absolute;
+	left:1000px;
+	top:95px;
+	font-family:'Impact', 'Comic Sans';
+	color:#4D4D4D;
+	font-size:20px;
 }
 
 .menuButton {
@@ -22,7 +28,8 @@ body {
 }
 
 #userBtn {
-	left: 250px;
+/* 	left: 250px; */
+	left: 150px;
 	background: url(design/user_btn.png) no-repeat;
 }
 
@@ -31,7 +38,8 @@ body {
 }
 
 #formBtn {
-	left: 365px;
+/* 	left: 365px; */
+	left: 275px;
 	background: url(design/form_btn.png) no-repeat;
 }
 
@@ -40,7 +48,8 @@ body {
 }
 
 #graphBtn {
-	left: 480px;
+/* 	left: 480px; */
+	left: 400px;
 	background: url(design/graph_btn.png) no-repeat;
 }
 
@@ -49,7 +58,8 @@ body {
 }
 
 #oisBtn {
-	left: 595px;
+/* 	left: 595px; */
+	left: 545px;
 	background: url(design/ois_btn.png) no-repeat;
 }
 
@@ -58,7 +68,8 @@ body {
 }
 
 #utBtn {
-	left: 710px;
+/* 	left: 710px; */
+	left: 705px;
 	background: url(design/ut_btn.png) no-repeat;
 }
 

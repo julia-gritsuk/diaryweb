@@ -4,7 +4,6 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" type="text/css" href="menu.css" media="screen" />
-<link rel="stylesheet" type="text/css" href="base.css" media="screen" />
 <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
 <script src="http://code.jquery.com/jquery-1.8.3.js"></script>
 <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
@@ -16,6 +15,7 @@
 </head>
 <body onload="getDate();">
 	<!-- Menu -->
+
 	<div id="menu">
 		<div class="menuButton" id="userBtn"></div>
 		<div class="menuButton" id="formBtn"></div>
@@ -27,16 +27,8 @@
 	<div id="menuFooter"></div>
 	<!-- to here -->
 
-	<center>
-		<div id="box">
-			<div class="container">
-				<div>
-					<label>E-mail: </label> <input id="email" /><br /> <label>Parool: </label> <input id="password" /><br />
-					<button type="button" onclick="getResponse()">Login</button>
-				</div>
-				<div id="response"></div>
-			</div>
-		</div>
-	</center>
+	<div class="container">
+	
+	</div>
 </body>
 </html>
