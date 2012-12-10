@@ -17,7 +17,7 @@
 <body onload="getDate();">
 	<!-- Menu -->
 	<div id="menu">
-		<div class="menuButton" id="userBtn"></div>
+		<div class="menuButton" id="userBtn" onclick="location.href='main/user.jsp'"></div>
 		<div class="menuButton" id="formBtn" onclick="location.href='main/form.jsp'"></div>
 		<div class="menuButton" id="graphBtn" onclick="location.href='main/main.jsp'"></div>
 		<div class="menuButton" id="oisBtn" onclick="Javascript:window.open('http://ois.ut.ee');"></div>
