@@ -1,0 +1,10 @@
+.ui-datepicker {
+  font-size: 62.5%;
+}
+
+.ui-autocomplete {
+  height: 200px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-size: 12px;
+}

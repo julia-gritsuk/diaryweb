@@ -1,3 +1,7 @@
+//(document).ready(function() {
+//	$("#datepicker").datepicker();
+//});
+
 function myFunction() {
 	document.getElementById("title").innerHTML = "���� UTF8 wtf";
 }
@@ -26,9 +30,15 @@ function getDate() {
 	refresh('getDate()', rate);
 }
 
-function getAutocompletes() {
+function initFunctionalities() {
+	setDatePicker();
 	getCodesAutocomplete();
 	getCoursesAutocomplete();
+}
+
+function setDatePicker() {
+	$("#datepicker").datepicker();
+	$("#datepicker").datepicker("option", "dateFormat", "dd.mm.yy");
 }
 
 function getCodesAutocomplete() {
@@ -40,7 +50,7 @@ function getCodesAutocomplete() {
 }
 
 function getCoursesAutocomplete() {
-	var availableCourses = [ "Andmeturve", "Infos�steemid", "Tarkvaraprojekt",
+	var availableCourses = [ "Andmeturve", "Infosüsteemid", "Tarkvaraprojekt",
 			"Tarkvaratehnika", "Tehisintellekt", "Keeletehnoloogia" ];
 	$("#courses").autocomplete({
 		source : availableCourses
